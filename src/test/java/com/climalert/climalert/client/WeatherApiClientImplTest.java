@@ -16,6 +16,7 @@ class WeatherApiClientImplTest {
 
     @Test
     void deberiaTraerElClimaActualDeWeatherApi() {
+
         Weather weather = weatherApiClient.getCurrentWeather();
 
         assertNotNull(weather);
